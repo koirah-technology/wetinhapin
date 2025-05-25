@@ -1,0 +1,13 @@
+{
+  "name": "@workspace/db-schema",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "supabase start",
+    "migrate": "supabase db push",
+    "types": "supabase gen types typescript --local > types/supabase.ts"
+  },
+  "devDependencies": {
+    "supabase": "^2.23.4"
+  }
+}
